@@ -8,7 +8,7 @@ export default class App extends Component {
   render () {
     return (
     <div className="App container">
-      <Navbar bg="dark" expand="lg">
+      <Navbar bg="light" expand="lg">
         <Navbar.Brand>
           <Link to="/">Fisher Bookstore</Link>
         </Navbar.Brand>
@@ -17,6 +17,14 @@ export default class App extends Component {
           <Nav>
             <NavItem>
               <Nav.Link href="/books">Books</Nav.Link>
+            </NavItem>
+          </Nav>
+        </Navbar.Collapse>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse className="justify-content-end">
+          <Nav>
+            <NavItem>
+              <Nav.Link href="/authors">Authors</Nav.Link>
             </NavItem>
           </Nav>
         </Navbar.Collapse>
