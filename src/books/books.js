@@ -6,7 +6,7 @@ export default function Home () {
         <div className="Home">
             <div className="lander">
                 <h1>Books</h1>
-                <p>Welcom to our books selection.</p>
+                <p>Welcome to our books selection.</p>
             </div>
         </div>
     );
