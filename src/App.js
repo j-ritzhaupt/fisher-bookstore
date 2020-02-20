@@ -8,7 +8,7 @@ export default class App extends Component {
   render () {
     return (
     <div className="App container">
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="lg">
         <Navbar.Brand>
           <Link to="/">Fisher Bookstore</Link>
         </Navbar.Brand>
