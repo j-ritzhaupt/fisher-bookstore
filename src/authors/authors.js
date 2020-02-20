@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./authors.css";
+import { AuthorsDisplay } from "./AuthorDisplay";
 
 export default class Author extends Component {
     constructor(props){
@@ -20,5 +21,15 @@ export default class Author extends Component {
                 }
             ]
         };
+    }
+
+    render() {
+        return(
+            <div className="Authors">
+                <div className="lander">
+                    <AuthorsDisplay authors={this.state.authors} />
+                </div>
+            </div>
+        );
     }
 }
